@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sri Balaji Dental & Implant Centre – Advanced dental care in Warangal. Implants, Root Canal, Braces, Cosmetic Dentistry. Book appointment today." />
+  <meta name="keywords" content="dental clinic Warangal, dental implants Warangal, root canal Warangal, Sri Balaji Dental" />
+  <title>Sri Balaji Dental & Implant Centre | Warangal</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="logo.jpeg" alt="Sri Balaji Dental Logo" class="logo-img" />
+        <div class="logo-text">
+          <span class="logo-main">Sri Balaji Dental</span>
+          <span class="logo-sub">& Implant Centre</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#doctors" class="nav-link">Doctors</a></li>
+        <li><a href="#treatments" class="nav-link">Treatments</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#appointment" class="nav-link btn-nav">Book Appointment</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <!-- Left Content -->
+      <div class="hero-content" data-animate>
+        <div class="hero-badge">
+          <i class="fas fa-star"></i> Warangal's Trusted Dental Care
+        </div>
+        <h1 class="hero-heading">
+          Healthy Smiles<br /><span class="accent">Start Here</span>
+        </h1>
+        <p class="hero-subheading">
+          Advanced Dental Care, Implants, Root Canal Treatments, Braces, Cosmetic Dentistry and Family Dental Services in Warangal.
+        </p>
+        <p class="hero-telugu">శ్రీ బాలాజీ డెంటల్ హాస్పిటల్</p>
+
+        <div class="hero-buttons">
+          <a href="#appointment" class="btn btn-primary">
+            <i class="fas fa-calendar-check"></i> Book Appointment
+          </a>
+          <a href="https://wa.me/919912339995" target="_blank" class="btn btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp Consultation
+          </a>
+        </div>
+
+        <div class="trust-badges">
+          <div class="trust-item"><i class="fas fa-check-circle"></i> 5-Star Rated Clinic</div>
+          <div class="trust-item"><i class="fas fa-check-circle"></i> Experienced Dental Team</div>
+          <div class="trust-item"><i class="fas fa-check-circle"></i> Modern Equipment</div>
+          <div class="trust-item"><i class="fas fa-check-circle"></i> Affordable Treatments</div>
+        </div>
+      </div>
+
+      <!-- Right Slider -->
+      <div class="hero-slider" data-animate>
+        <div class="slider-wrapper" id="sliderWrapper">
+          <!-- Slide 1 -->
+          <div class="slide active">
+            <img src="implant.png" alt="Dental Implants" />
+            <div class="slide-caption">Dental Implants – Stronger Roots. Natural Smile.</div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+            <img src="rootcanal.png" alt="Root Canal Treatment" />
+            <div class="slide-caption">Root Canal Treatment – Save Your Natural Tooth</div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="slide">
+            <img src="braces.png" alt="Braces & Aligners" />
+            <div class="slide-caption">Braces & Aligners – Straighten Teeth at Any Age</div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="slide">
+            <img src="cosmetic.png" alt="Cosmetic Dentistry" />
+            <div class="slide-caption">Cosmetic Dentistry – Your Smile. Your Style.</div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="slide">
+            <img src="cleaning.png" alt="Teeth Cleaning" />
+            <div class="slide-caption">Teeth Cleaning – Regular Cleaning. Stronger Smile.</div>
+          </div>
+        </div>
+
+        <button class="slider-btn prev" id="sliderPrev" aria-label="Previous slide">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="slider-btn next" id="sliderNext" aria-label="Next slide">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+    </div>
+
+    <!-- Hero wave -->
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <section class="stats-bar">
+    <div class="stats-container">
+      <div class="stat-item" data-animate>
+        <span class="stat-number">5.0</span>
+        <span class="stat-label">★ Google Rating</span>
+      </div>
+      <div class="stat-item" data-animate>
+        <span class="stat-number">7+</span>
+        <span class="stat-label">Patient Reviews</span>
+      </div>
+      <div class="stat-item" data-animate>
+        <span class="stat-number">1000+</span>
+        <span class="stat-label">Happy Smiles</span>
+      </div>
+      <div class="stat-item" data-animate>
+        <span class="stat-number">10+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Why Choose Us</span>
+        <h2>Why Choose Sri Balaji Dental & Implant Centre</h2>
+        <p>We combine compassionate care with cutting-edge technology to deliver exceptional dental experiences for every patient.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card" data-animate>
+          <div class="about-icon"><i class="fas fa-microscope"></i></div>
+          <h3>Modern Dental Equipment</h3>
+          <p>State-of-the-art digital X-rays, rotary endodontics, and laser dentistry for precise, pain-free treatment.</p>
+        </div>
+        <div class="about-card" data-animate>
+          <div class="about-icon"><i class="fas fa-user-doctor"></i></div>
+          <h3>Experienced Dentists</h3>
+          <p>BDS & MDS qualified dental surgeons with years of specialized experience across all dental disciplines.</p>
+        </div>
+        <div class="about-card" data-animate>
+          <div class="about-icon"><i class="fas fa-clipboard-list"></i></div>
+          <h3>Personalized Treatment Plans</h3>
+          <p>Every patient gets a customized treatment plan tailored to their unique dental needs and goals.</p>
+        </div>
+        <div class="about-card" data-animate>
+          <div class="about-icon"><i class="fas fa-couch"></i></div>
+          <h3>Comfortable Environment</h3>
+          <p>A calm, hygienic, and welcoming clinic designed to ease dental anxiety for patients of all ages.</p>
+        </div>
+        <div class="about-card" data-animate>
+          <div class="about-icon"><i class="fas fa-tags"></i></div>
+          <h3>Affordable Care</h3>
+          <p>High-quality dental treatment at transparent, competitive prices. No hidden charges, ever.</p>
+        </div>
+        <div class="about-card" data-animate>
+          <div class="about-icon"><i class="fas fa-heart"></i></div>
+          <h3>High Patient Satisfaction</h3>
+          <p>5-star rated on Google with glowing reviews from hundreds of satisfied patients across Warangal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOCTORS SECTION ===== -->
+  <section class="doctors" id="doctors">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Our Team</span>
+        <h2>Meet Our Dental Experts</h2>
+        <p>Our team of qualified dental professionals is dedicated to your oral health and beautiful smile.</p>
+      </div>
+
+      <div class="doctors-grid">
+        <!-- Doctor 1 -->
+        <div class="doctor-card" data-animate>
+          <div class="doctor-photo">
+            <div class="doctor-placeholder">
+              <i class="fas fa-user-doctor"></i>
+              <!-- Replace this div with: <img src="doctor1.jpg" alt="Dr. Anil Kumar" /> -->
+            </div>
+            <div class="doctor-badge">Implantologist</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Sandeep </h3>
+            <span class="doctor-qual">BDS, MDS – Oral & Maxillofacial Surgery</span>
+            <span class="doctor-spec"><i class="fas fa-tooth"></i> Dental Surgeon & Implantologist</span>
+            <span class="doctor-exp"><i class="fas fa-clock"></i> 10+ Years Experience</span>
+            <p class="doctor-desc">Specializes in full-mouth rehabilitation, dental implants, and complex oral surgeries with a gentle, patient-first approach.</p>
+            <a href="#appointment" class="btn btn-primary btn-sm">Book Consultation</a>
+          </div>
+        </div>
+
+        <!-- Doctor 2 – placeholder -->
+        <div class="doctor-card" data-animate>
+          <div class="doctor-photo">
+            <div class="doctor-placeholder">
+              <i class="fas fa-user-doctor"></i>
+              <!-- Replace with doctor photo -->
+            </div>
+            <div class="doctor-badge">Orthodontist</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Gayathri</h3>
+            <span class="doctor-qual">BDS, MDS – Orthodontics</span>
+            <span class="doctor-spec"><i class="fas fa-tooth"></i> Orthodontist & Cosmetic Dentist</span>
+            <span class="doctor-exp"><i class="fas fa-clock"></i> 8+ Years Experience</span>
+            <p class="doctor-desc">Expert in braces, clear aligners, and smile makeovers. Transforms smiles with precision orthodontic treatment for all ages.</p>
+            <a href="#appointment" class="btn btn-primary btn-sm">Book Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TREATMENTS SECTION ===== -->
+  <section class="treatments" id="treatments">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Our Services</span>
+        <h2>Comprehensive Dental Treatments</h2>
+        <p>From routine checkups to advanced implants, we offer complete dental care under one roof.</p>
+      </div>
+
+      <div class="treatments-grid">
+        <!-- Treatment 1 -->
+        <div class="treatment-card" data-animate>
+          <div class="treatment-img">
+            <img src="implant.png" alt="Dental Implants" />
+            <div class="treatment-overlay">
+              <a href="#appointment" class="overlay-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="treatment-body">
+            <h3>Dental Implants</h3>
+            <p>Permanent, natural-looking tooth replacements that restore full function and confidence.</p>
+            <a href="#appointment" class="treatment-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Treatment 2 -->
+        <div class="treatment-card" data-animate>
+          <div class="treatment-img">
+            <img src="rootcanal.png" alt="Root Canal Treatment" />
+            <div class="treatment-overlay">
+              <a href="#appointment" class="overlay-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="treatment-body">
+            <h3>Root Canal Treatment</h3>
+            <p>Save your natural tooth and relieve pain with our modern, near-painless root canal procedure.</p>
+            <a href="#appointment" class="treatment-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Treatment 3 -->
+        <div class="treatment-card" data-animate>
+          <div class="treatment-img">
+            <img src="cleaning.png" alt="Teeth Cleaning" />
+            <div class="treatment-overlay">
+              <a href="#appointment" class="overlay-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="treatment-body">
+            <h3>Teeth Cleaning & Scaling</h3>
+            <p>Professional scaling and polishing to remove plaque, tartar, and keep your gums healthy.</p>
+            <a href="#appointment" class="treatment-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Treatment 4 -->
+        <div class="treatment-card" data-animate>
+          <div class="treatment-img">
+            <img src="braces.png" alt="Braces & Aligners" />
+            <div class="treatment-overlay">
+              <a href="#appointment" class="overlay-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="treatment-body">
+            <h3>Braces & Aligners</h3>
+            <p>Metal, ceramic, and clear aligners to straighten teeth and perfect your bite at any age.</p>
+            <a href="#appointment" class="treatment-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Treatment 5 -->
+        <div class="treatment-card" data-animate>
+          <div class="treatment-img">
+            <img src="cosmetic.png" alt="Cosmetic Dentistry" />
+            <div class="treatment-overlay">
+              <a href="#appointment" class="overlay-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="treatment-body">
+            <h3>Cosmetic Dentistry</h3>
+            <p>Veneers, whitening, bonding, and smile makeovers tailored precisely to your face and goals.</p>
+            <a href="#appointment" class="treatment-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Treatment 6 -->
+        <div class="treatment-card" data-animate>
+          <div class="treatment-img">
+            <img src="extraction.png" alt="Tooth Extraction" />
+            <div class="treatment-overlay">
+              <a href="#appointment" class="overlay-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="treatment-body">
+            <h3>Tooth Extraction</h3>
+            <p>Safe, comfortable, and hygienic extractions performed with minimal discomfort and quick recovery.</p>
+            <a href="#appointment" class="treatment-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Treatment 7 -->
+        <div class="treatment-card" data-animate>
+          <div class="treatment-img">
+            <div class="treatment-img-placeholder">
+              <i class="fas fa-child"></i>
+              <!-- Replace with: <img src="pediatric.jpg" alt="Pediatric Dentistry" /> -->
+            </div>
+            <div class="treatment-overlay">
+              <a href="#appointment" class="overlay-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="treatment-body">
+            <h3>Pediatric Dentistry</h3>
+            <p>Gentle, child-friendly dental care in a fun, welcoming environment to build lifelong healthy habits.</p>
+            <a href="#appointment" class="treatment-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Treatment 8 -->
+        <div class="treatment-card" data-animate>
+          <div class="treatment-img">
+            <div class="treatment-img-placeholder">
+              <i class="fas fa-star"></i>
+              <!-- Replace with: <img src="smile-makeover.jpg" alt="Smile Makeover" /> -->
+            </div>
+            <div class="treatment-overlay">
+              <a href="#appointment" class="overlay-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="treatment-body">
+            <h3>Smile Makeover</h3>
+            <p>A comprehensive transformation combining multiple procedures to give you the smile you've always dreamed of.</p>
+            <a href="#appointment" class="treatment-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Patient Stories</span>
+        <h2>What Our Patients Say</h2>
+        <p>Real experiences from real patients. We're proud of every smile we've helped create.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-animate>
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"Good clinic with best doctors in Warangal city. Staff are well behaved and clinic is situated in a prime location. Highly recommended!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <span class="reviewer-name">Rajesh K.</span>
+              <span class="reviewer-tag">Google Review</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card featured" data-animate>
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"The clinic is well-maintained, and the staff is friendly and professional. The treatment was very comfortable. I highly recommend Sri Balaji Dental."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <span class="reviewer-name">Sunita P.</span>
+              <span class="reviewer-tag">Google Review</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-animate>
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"I went for tooth removal. Good doctors and excellent treatment. No pain at all! The clinic is very clean and hygienic. Will definitely visit again."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <span class="reviewer-name">Mohammed A.</span>
+              <span class="reviewer-tag">Google Review</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="google-rating-box" data-animate>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" class="google-logo" />
+        <span class="google-score">5.0</span>
+        <span class="google-stars">★★★★★</span>
+        <span class="google-count">Based on 7 Reviews</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Gallery</span>
+        <h2>Our Clinic & Treatments</h2>
+        <p>Take a look inside Sri Balaji Dental & Implant Centre.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-animate>
+          <img src="room1.jpeg" alt="Dental Treatment Room" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-animate>
+          <img src="room2.jpeg" alt="Dental Chair" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-animate>
+          <img src="implant.png" alt="Dental Implants" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-animate>
+          <img src="cosmetic.png" alt="Cosmetic Dentistry" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-animate>
+          <img src="braces.png" alt="Braces Treatment" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item" data-animate>
+          <img src="cleaning.png" alt="Teeth Cleaning" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+      <img src="" alt="Gallery" id="lightboxImg" />
+    </div>
+  </section>
+
+  <!-- ===== APPOINTMENT SECTION ===== -->
+  <section class="appointment" id="appointment">
+    <div class="container">
+      <div class="appointment-wrapper">
+        <div class="appointment-info" data-animate>
+          <span class="section-tag">Book Now</span>
+          <h2>Schedule Your Visit</h2>
+          <p>Fill in your details and we'll confirm your appointment via WhatsApp. Fast, easy, and no waiting on hold.</p>
+
+          <div class="contact-quick">
+            <a href="tel:+919912339995" class="quick-link">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span>Call Us</span>
+                <strong>+91 99123 39995</strong>
+              </div>
+            </a>
+            <a href="https://wa.me/919912339995" target="_blank" class="quick-link wa">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <span>WhatsApp</span>
+                <strong>+91 99123 39995</strong>
+              </div>
+            </a>
+          </div>
+
+          <div class="hours-box">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Working Hours</strong>
+              <span>Monday – Sunday: 9:00 AM – 9:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="appointment-form" data-animate>
+          <h3>Book an Appointment</h3>
+          <!-- FORM: submits via WhatsApp, no backend needed -->
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="patientName">Patient Name *</label>
+              <input type="text" id="patientName" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="patientPhone">Phone Number *</label>
+              <input type="tel" id="patientPhone" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+            <div class="form-group">
+              <label for="patientEmail">Email Address</label>
+              <input type="email" id="patientEmail" placeholder="your@email.com" />
+            </div>
+            <div class="form-group">
+              <label for="preferredDate">Preferred Date *</label>
+              <input type="date" id="preferredDate" required />
+            </div>
+            <div class="form-group">
+              <label for="preferredTime">Preferred Time *</label>
+              <select id="preferredTime">
+                <option value="">Select time</option>
+                <option>9:00 AM – 10:00 AM</option>
+                <option>10:00 AM – 11:00 AM</option>
+                <option>11:00 AM – 12:00 PM</option>
+                <option>12:00 PM – 1:00 PM</option>
+                <option>2:00 PM – 3:00 PM</option>
+                <option>3:00 PM – 4:00 PM</option>
+                <option>4:00 PM – 5:00 PM</option>
+                <option>5:00 PM – 6:00 PM</option>
+                <option>6:00 PM – 7:00 PM</option>
+                <option>7:00 PM – 8:00 PM</option>
+                <option>8:00 PM – 9:00 PM</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="treatmentType">Treatment Required *</label>
+              <select id="treatmentType">
+                <option value="">Select treatment</option>
+                <option>Dental Implants</option>
+                <option>Root Canal Treatment</option>
+                <option>Teeth Cleaning & Scaling</option>
+                <option>Braces & Aligners</option>
+                <option>Cosmetic Dentistry</option>
+                <option>Tooth Extraction</option>
+                <option>Pediatric Dentistry</option>
+                <option>Smile Makeover</option>
+                <option>General Checkup</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label for="message">Message / Symptoms</label>
+              <textarea id="message" rows="3" placeholder="Describe your symptoms or any special requests..."></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-full" onclick="bookAppointment()">
+            <i class="fab fa-whatsapp"></i> Confirm via WhatsApp
+          </button>
+          <p class="form-note">Your appointment request will be sent directly via WhatsApp for instant confirmation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-tag">Find Us</span>
+        <h2>Contact & Location</h2>
+        <p>We're conveniently located near Vivekananda College in Warangal, easily accessible from all parts of the city.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-details" data-animate>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <h4>Our Address</h4>
+            <p>Opposite HP Petrol Pump, Vivekananda College,<br />Kashibugga, LB Nagar, Warangal,<br />Telangana 506002</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <h4>Phone & WhatsApp</h4>
+            <p><a href="tel:+919912339995">+91 99123 39995</a></p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <h4>Working Hours</h4>
+            <p>Monday – Sunday<br />9:00 AM – 9:00 PM<br /><span class="open-badge">Open Today</span></p>
+          </div>
+
+          <div class="contact-actions">
+            <a href="tel:+919912339995" class="btn btn-primary">
+              <i class="fas fa-phone"></i> Call Now
+            </a>
+            <a href="https://maps.google.com/?q=XJJ4+MM+Warangal+Telangana" target="_blank" class="btn btn-outline">
+              <i class="fas fa-directions"></i> Get Directions
+            </a>
+            <a href="https://wa.me/919912339995" target="_blank" class="btn btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="map-container" data-animate>
+          <!-- Google Maps embed – replace src with actual embed URL from Google Maps -->
+          <iframe
+            src="https://maps.google.com/maps?q=Sri+Balaji+Dental+Implant+Centre+Warangal&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="400"
+            style="border:0; border-radius: 16px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Sri Balaji Dental Location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="logo.jpeg" alt="Sri Balaji Dental" class="footer-logo-img" />
+          <div>
+            <span class="footer-logo-name">Sri Balaji Dental</span>
+            <span class="footer-logo-sub">& Implant Centre</span>
+          </div>
+        </div>
+        <p class="footer-desc">Advanced dental care with compassion. Serving the people of Warangal with modern treatments at affordable prices.</p>
+        <p class="footer-telugu">శ్రీ బాలాజీ డెంటల్ హాస్పిటల్</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/919912339995" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#doctors">Our Doctors</a></li>
+          <li><a href="#treatments">Treatments</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-treatments">
+        <h4>Our Treatments</h4>
+        <ul>
+          <li><a href="#appointment">Dental Implants</a></li>
+          <li><a href="#appointment">Root Canal Treatment</a></li>
+          <li><a href="#appointment">Teeth Cleaning</a></li>
+          <li><a href="#appointment">Braces & Aligners</a></li>
+          <li><a href="#appointment">Cosmetic Dentistry</a></li>
+          <li><a href="#appointment">Tooth Extraction</a></li>
+          <li><a href="#appointment">Pediatric Dentistry</a></li>
+          <li><a href="#appointment">Smile Makeover</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <div class="footer-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Opp HP Petrol Pump, Vivekananda College, Kashibugga, LB Nagar, Warangal – 506002</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-phone"></i>
+          <a href="tel:+919912339995">+91 99123 39995</a>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-clock"></i>
+          <span>Mon – Sun: 9:00 AM – 9:00 PM</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-star"></i>
+          <span>5.0 ★ Google Rating (7 Reviews)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Sri Balaji Dental & Implant Centre, Warangal. All Rights Reserved.</p>
+      <p>Designed with <i class="fas fa-heart" style="color:#e74c3c"></i> for better smiles.</p>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING BUTTONS ===== -->
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/919912339995?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Sri%20Balaji%20Dental%20%26%20Implant%20Centre."
+     target="_blank"
+     class="float-whatsapp"
+     aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="float-tooltip">Chat with us</span>
+  </a>
+
+  <!-- Call Float (mobile) -->
+  <a href="tel:+919912339995" class="float-call" aria-label="Call us">
+    <i class="fas fa-phone"></i>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
